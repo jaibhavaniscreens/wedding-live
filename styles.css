@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+body {
+    margin: 0px;
+    font-family:'lugrasimo',cursive;
+    background-color: #fceeec;
+     }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  .container {
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+ 
+  .main-title{
+   padding: 160px 0 0;
+   text-align: center;
+   margin: 10px;
+   color:  rgb(255, 255, 255);
+   font-family:'lugrasimo',cursive;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 250%;
+  }
+  .sub-title{
+    text-align: center;
+    color:  rgb(255, 254, 254);
+    font-family:'lugrasimo',cursive;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 105%;
+  }
+  .live-title{
+    text-align: center;
+    margin: 20px;
+    background-image: url('https://media3.giphy.com/media/2Yliznc7YNhoX05HNR/200.webp?cid=ecf05e47sjxu4ptj8n914i97qw6svs8flppi5p1mvzpypp34&ep=v1_gifs_search&rid=200.webp&ct=g');
+    border-radius: 5%;
+    margin-top: 20px;
+    color:  rgb(243, 189, 11);
+    font-family:'lugrasimo', cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 175%;
+  }
+  .prewedding-title{
+    text-align: center;
+    margin: 20px;
+    background-image: url('https://media1.tenor.com/m/Q2b9uxNR4wcAAAAC/swaragini-hellyshah.gif');
+    border-radius: 5%;
+    margin-top: 20px;
+    color:  rgb(243, 189, 11);
+    font-family:'lugrasimo', cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 175%;
+  }
+  hr.style-eight {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+.live-streaming{
+    background-image: url('https://media1.tenor.com/m/tMz94gQiOw0AAAAC/flores-hermosas.gif');
+
+}
+  iframe{
+    padding: 50px;
+    padding-left: 400px;
+    align-items: center;
+    width: 510px;
+  }
+  footer{
+    text-align: center;
+  }
+  .logo{
+     border-radius: 10%;
+     height: 100px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+    .header-img{
+        height: 500px;
+        width: 100%;
+        margin-inline-start: 0px;
+        margin-top: -10px;
+        border-radius: 0%;
+    }
+ .live-streaming iframe{
+    padding: 25px;
+    border: 20px;
+    width:  315px !important;
+    height: 250px;
+   }
+  .logo {
+    margin: 15px;
+    margin-left: 10px;
+    width: 80px !important;
+    height: 70px !important;
+  }
+}
