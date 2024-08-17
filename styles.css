@@ -97,13 +97,20 @@ body {
 }
 .live-streaming{
     background-image: url('https://media1.tenor.com/m/tMz94gQiOw0AAAAC/flores-hermosas.gif');
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      padding-top: 30px;
+      height: 0;
+      overflow: hidden;
 
 }
-  iframe{
-    padding: 50px;
-    padding-left: 400px;
-    align-items: center;
-    width: 510px;
+.live-streaming iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
   }
   footer{
     text-align: center;
@@ -125,16 +132,18 @@ body {
         margin-top: -10px;
         border-radius: 0%;
     }
- .live-streaming iframe{
-    padding: 25px;
-    border: 20px;
-    width:  315px !important;
-    height: 250px;
+.live-streaming {
+  padding-bottom: 45%; /* adjust aspect ratio for smaller screens */
    }
   .logo {
     margin: 15px;
     margin-left: 10px;
     width: 80px !important;
     height: 70px !important;
+  }
+        @media only screen and (max-width: 480px) { /* mobiles */
+    .live-streaming {
+      padding-bottom: 35%; /* adjust aspect ratio for even smaller screens */
+    }
   }
 }
