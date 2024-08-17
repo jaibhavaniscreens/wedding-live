@@ -143,7 +143,7 @@ body {
   }
         @media only screen and (max-width: 480px) { /* mobiles */
     .live-streaming {
-      padding-bottom: 35%; /* adjust aspect ratio for even smaller screens */
+      padding-bottom: 65%; /* adjust aspect ratio for even smaller screens */
     }
   }
 }
